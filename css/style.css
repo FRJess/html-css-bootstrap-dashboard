@@ -9,10 +9,6 @@ header{
   background-color: cornflowerblue;
 }
 
-aside{
-  background-color:lightseagreen;
-}
-
 main{
   background-color:lightsteelblue;
   height: calc(100vh - 70px);
@@ -39,4 +35,17 @@ main{
 .todo{
   height: calc(100vh - 190px);
   border: 1px solid black;
+}
+
+aside{
+  background-image: url(../img/sidebar-bg.png);
+  background-color: #051E34;
+}
+
+aside .nav-item .nav-link{
+  color: white
+}
+
+aside i{
+  font-size: 2rem;
 }
