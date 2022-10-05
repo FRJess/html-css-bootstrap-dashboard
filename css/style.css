@@ -42,10 +42,16 @@ aside{
   background-color: #051E34;
 }
 
-aside .nav-item .nav-link{
+aside .nav-link{
   color: white
 }
 
 aside i{
-  font-size: 2rem;
+  font-size: 1.8rem;
+  margin:0
+}
+
+main .badge{
+  border-radius: 15px;
+  padding: auto 10px;
 }
