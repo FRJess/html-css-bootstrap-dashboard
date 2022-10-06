@@ -13,10 +13,6 @@ main{
   overflow: auto;
 }
 
-.classi{
-  height: 40vh;
-  border: 1px solid black;
-}
 
 .faq{
   height: 20vh;
@@ -72,10 +68,16 @@ aside i{
   color: #FF8F00;
 }
 
-.jt-plus{
-  
+.jt-avatar{
+  max-width: 25px;
 }
 
+.table i{
+  border: 1px solid black;
+  border-radius: 4px;
+  padding: 6px;
+  /* margin: 8px; */
+}
 
 /* MEDIA QUERY */
 
