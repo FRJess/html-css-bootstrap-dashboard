@@ -11,6 +11,7 @@ header{
 main{
   background-color:lightsteelblue;
   height: calc(100vh - 70px);
+  overflow: auto;
 }
 
 .fullheight{
@@ -54,4 +55,23 @@ aside i{
 main .badge{
   border-radius: 15px;
   padding: auto 10px;
+}
+
+
+/* MEDIA QUERY */
+
+@media screen and (max-width: 991px) {
+
+  header .navbar{
+    flex-wrap: nowrap;
+  }
+
+  .fullheight{
+    width: 100%
+  }
+
+  /* .row-tags{
+    width: 100%;
+  } */
+  
 }
