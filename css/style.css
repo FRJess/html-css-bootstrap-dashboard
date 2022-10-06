@@ -8,26 +8,16 @@ header{
 }
 
 main{
-  /* background-color:lightsteelblue; */
   height: calc(100vh - 70px);
   overflow: auto;
+  /* width: 85%; */
 }
-
-
-/* .faq{
-  height: 20vh;
-  border: 1px solid black;
-} */
-
-/* .todo{
-  height: calc(100vh - 190px);
-  border: 1px solid black;
-} */
 
 aside{
   background-image: url(../img/sidebar-bg.png);
   background-color: #051E34;
   font-family: 'Poppins', sans-serif;
+  /* width: 15%; */
 }
 
 aside .nav-link{
