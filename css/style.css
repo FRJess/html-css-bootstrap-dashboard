@@ -11,6 +11,10 @@ header{
   background-color: cornflowerblue;
 }
 
+header .nav-link{
+  cursor: pointer;
+}
+
 /* ASIDE */
 
 aside{
@@ -24,6 +28,7 @@ aside .nav-link{
   color: white;
   font-size: 1rem;
   padding: 0.8rem 0;
+  cursor: pointer;
 }
 
 aside i{
@@ -32,12 +37,27 @@ aside i{
   font-size: 0.8rem;
 }
 
+aside .nav-link:hover{
+  background-color: #A5AAAE;
+}
+
 /* MAIN */
 
 main{
   height: calc(100vh - 70px);
   overflow-y: scroll;
   /* width: 85%; */
+}
+
+/* Boolean */
+
+.boolean .badge{
+  cursor: pointer;
+  font-weight: bold;
+}
+
+.boolean .badge:hover{
+  filter: brightness(10%);
 }
 
 /* Table */
@@ -62,11 +82,24 @@ main{
   width: 8%;
 }
 
+.table .badge{
+  cursor: pointer;
+}
+
 .table i{
   border: 1px solid #A5AAAE;
   border-radius: 4px;
   padding: 6px;
-  /* margin: 8px; */
+  cursor: pointer;
+}
+
+.table i:hover{
+  background-color: #6a6a6a;
+  color:white
+}
+
+.table tbody tr:hover{
+  background-color: #e7e8ea;
 }
 
 /* Personal classes */
