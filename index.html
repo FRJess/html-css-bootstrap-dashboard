@@ -59,7 +59,7 @@
     <div class="row">
 
       <!-- Aside -->
-      <aside class="col-2 d-flex flex-column justify-content-between align-items-center p-0">
+      <aside class="col-1 d-flex flex-column justify-content-between align-items-center p-0">
         <nav>
           <ul class="flex-column list-unstyled text-center justify-content-center">
             <a class="nav-link active" aria-current="page" href="#"><i class="bi bi-house-fill"></i><span class="d-none d-lg-inline">Home</span></a>
@@ -71,7 +71,7 @@
       </aside>
       <!-- /Aside -->
 
-      <Main class="col-10 p-0">
+      <Main class="col-11 p-0">
         <div class="container-fluid bg-primary m-0 text-white">
           <div class="row  ">
             <div class="col-lg-8 p-4">
@@ -94,11 +94,11 @@
           </div>
         </div>
   
-        <div class="container">
+        <div class="container-fluid">
           <div class="row row-cols-1 row-cols-lg-2">
-            <div class="col-lg-8">
+            <div class="col-lg-9 p-0">
               <div class="row m-1">
-                <div class="card classi p-0">
+                <div class="card p-0">
                   <div class="card-header d-flex justify-content-between bg-secondary bg-opacity-10">
                     <h3 class="card-title">Prossime classi</h3>
                     <div class="jt-plus h2 text-primary d-flex align-items-center">
@@ -109,31 +109,69 @@
                     <table class="table">
                       <thead>
                         <tr>
-                          <th scope="col">Nome</th>
-                          <th scope="col">Data inizio</th>
-                          <th scope="col">ROI</th>
-                          <th scope="col">Stato</th>
-                          <th scope="col">Azioni</th>
+                          <th scope="col" class="name">Nome</th>
+                          <th scope="col" class="date d-none d-md-table-cell text-center">Data inizio</th>
+                          <th scope="col" class="roi d-none d-md-table-cell text-center">ROI</th>
+                          <th scope="col" class="state text-center">Stato</th>
+                          <th scope="col" class="actions text-center">Azioni</th>
                         </tr>
                       </thead>
                       <tbody class="table-group-divider">
                         <tr>
-                          <th scope="row"> <img class="jt-avatar me-1" src="img/class-avatar.jpg" alt="class avatar">Classe 75</th>
-                          <td>15 Feb 2021</td>
-                          <td>20%</td>
-                          <td><span class="badge text-bg-success">Done</span></td>
-                          <td class="d-flex"><i class="fa-solid fa-pencil"></i><i class="fa-solid fa-trash"></i></td>
+                          <td><img class="jt-avatar me-1" src="img/class-avatar.jpg" alt="class avatar">Classe 73</td>
+                          <td class="d-none d-md-table-cell text-center">01 Lug 2022</td>
+                          <td class="roi d-none d-md-table-cell text-center">20%</td>
+                          <td class="text-center"><span class="badge text-bg-success">Done</span></td>
+                          <td class="d-flex text-secondary justify-content-between"><i class="fa-solid fa-pencil"></i><i class="fa-solid fa-trash"></i></td>
                         </tr>
                         <tr>
-                          <th scope="row">2</th>
-                          <td>Jacob</td>
-                          <td>Thornton</td>
-                          <td>@fat</td>
+                          <td><img class="jt-avatar me-1" src="img/class-avatar.jpg" alt="class avatar">Classe 74</td>
+                          <td class="d-none d-md-table-cell text-center">14 Lug 2022</td>
+                          <td class="roi d-none d-md-table-cell text-center">20%</td>
+                          <td class="text-center"><span class="badge text-bg-success">Done</span></td>
+                          <td class="d-flex text-secondary justify-content-between"><i class="fa-solid fa-pencil"></i><i class="fa-solid fa-trash"></i></td>
                         </tr>
                         <tr>
-                          <th scope="row">3</th>
-                          <td colspan="2">Larry the Bird</td>
-                          <td>@twitter</td>
+                          <td><img class="jt-avatar me-1" src="img/class-avatar.jpg" alt="class avatar">Classe 75</td>
+                          <td class="d-none d-md-table-cell text-center">30 Ago 2022</td>
+                          <td class="roi d-none d-md-table-cell text-center">20%</td>
+                          <td class="text-center"><span class="badge text-bg-warning text-light">Process</span></td>
+                          <td class="d-flex text-secondary justify-content-between"><i class="fa-solid fa-pencil"></i><i class="fa-solid fa-trash"></i></td>
+                        </tr>
+                        <tr>
+                          <td><img class="jt-avatar me-1" src="img/class-avatar.jpg" alt="class avatar">Classe 76</td>
+                          <td class="d-none d-md-table-cell text-center">06 Sep 2022</td>
+                          <td class="roi d-none d-md-table-cell text-center">20%</td>
+                          <td class="text-center"><span class="badge text-bg-success">Done</span></td>
+                          <td class="d-flex text-secondary justify-content-between"><i class="fa-solid fa-pencil"></i><i class="fa-solid fa-trash"></i></td>
+                        </tr>
+                        <tr>
+                          <td><img class="jt-avatar me-1" src="img/class-avatar.jpg" alt="class avatar">Classe 77</td>
+                          <td class="d-none d-md-table-cell text-center">13 Sep 2022</td>
+                          <td class="roi d-none d-md-table-cell text-center">20%</td>
+                          <td class="text-center"><span class="badge text-bg-danger">Failed</span></td>
+                          <td class="d-flex text-secondary justify-content-between"><i class="fa-solid fa-pencil"></i><i class="fa-solid fa-trash"></i></td>
+                        </tr>
+                        <tr>
+                          <td><img class="jt-avatar me-1" src="img/class-avatar.jpg" alt="class avatar">Classe 78</td>
+                          <td class="d-none d-md-table-cell text-center">20 Sep 2022</td>
+                          <td class="roi d-none d-md-table-cell text-center">20%</td>
+                          <td class="text-center"><span class="badge text-bg-success">Done</span></td>
+                          <td class="d-flex text-secondary justify-content-between"><i class="fa-solid fa-pencil"></i><i class="fa-solid fa-trash"></i></td>
+                        </tr>
+                        <tr>
+                          <td><img class="jt-avatar me-1" src="img/class-avatar.jpg" alt="class avatar">Classe 79</td>
+                          <td class="d-none d-md-table-cell text-center">27 Sep 2022</td>
+                          <td class="roi d-none d-md-table-cell text-center">20%</td>
+                          <td class="text-center"><span class="badge text-bg-danger">Failed</span></td>
+                          <td class="d-flex text-secondary justify-content-between"><i class="fa-solid fa-pencil"></i><i class="fa-solid fa-trash"></i></td>
+                        </tr>
+                        <tr>
+                          <td><img class="jt-avatar me-1" src="img/class-avatar.jpg" alt="class avatar">Classe 80</td>
+                          <td class="d-none d-md-table-cell text-center">04 Ott 2022</td>
+                          <td class="roi d-none d-md-table-cell text-center">20%</td>
+                          <td class="text-center"><span class="badge text-bg-success">Done</span></td>
+                          <td class="d-flex text-secondary justify-content-between"><i class="fa-solid fa-pencil"></i><i class="fa-solid fa-trash"></i></td>
                         </tr>
                       </tbody>
                     </table>
@@ -145,7 +183,7 @@
                   FAQ accordion</div>
               </div>
             </div>
-            <div class="col-lg-4 todo">
+            <div class="col-lg-3 todo">
               todo
             </div>
       

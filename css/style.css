@@ -72,8 +72,28 @@ aside i{
   max-width: 25px;
 }
 
+.table .name{
+  width: 55%;
+}
+
+.table .date{
+  width: 18%;
+}
+
+.table .roi{
+  width: 8%;
+}
+
+.table .state{
+  width: 6%;
+}
+
+.table .actions{
+  width: 8%;
+}
+
 .table i{
-  border: 1px solid black;
+  border: 1px solid #A5AAAE;
   border-radius: 4px;
   padding: 6px;
   /* margin: 8px; */
