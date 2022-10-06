@@ -53,6 +53,21 @@ aside i{
   padding: auto 12px;
 }
 
+.jt-search{
+  display: block;
+  border-top-left-radius: 0.375rem;
+  border-bottom-left-radius: 0.375rem;
+  padding: 0.375rem 0.75rem;
+  line-height: 1.5;
+  border: 1px solid #ced4da;
+  margin:0
+}
+
+.jt-navsearch{
+  border-top-left-radius: 0;
+  border-bottom-left-radius: 0;
+}
+
 
 /* MEDIA QUERY */
 
