@@ -44,6 +44,10 @@ aside i{
   padding-right: 10px;
 }
 
+.jt-logo{
+  max-width: 50px;
+}
+
 .jt-badge{
   border-radius: 15px;
   padding: auto 12px;
