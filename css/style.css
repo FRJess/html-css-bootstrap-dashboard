@@ -1,17 +1,17 @@
+/* BODY */
+
 body{
   font-family: 'Roboto', sans-serif;
 }
+
+/* HEADER */
 
 header{
   height: 70px;
   background-color: cornflowerblue;
 }
 
-main{
-  height: calc(100vh - 70px);
-  overflow: auto;
-  /* width: 85%; */
-}
+/* ASIDE */
 
 aside{
   background-image: url(../img/sidebar-bg.png);
@@ -21,14 +21,55 @@ aside{
 }
 
 aside .nav-link{
-  color: white
+  color: white;
+  font-size: 1rem;
+  padding: 0.8rem 0;
 }
 
 aside i{
-  font-size: 1.8rem;
   margin:0;
-  padding-right: 10px;
+  padding-right: 8px;
+  font-size: 0.8rem;
 }
+
+/* MAIN */
+
+main{
+  height: calc(100vh - 70px);
+  overflow-y: scroll;
+  /* width: 85%; */
+}
+
+/* Table */
+
+.table .name{
+  width: 55%;
+}
+
+.table .date{
+  width: 18%;
+}
+
+.table .roi{
+  width: 8%;
+}
+
+.table .state{
+  width: 6%;
+}
+
+.table .actions{
+  width: 8%;
+}
+
+.table i{
+  border: 1px solid #A5AAAE;
+  border-radius: 4px;
+  padding: 6px;
+  /* margin: 8px; */
+}
+
+/* Personal classes */
 
 .jt-logo{
   max-width: 50px;
@@ -62,33 +103,6 @@ aside i{
   max-width: 25px;
 }
 
-.table .name{
-  width: 55%;
-}
-
-.table .date{
-  width: 18%;
-}
-
-.table .roi{
-  width: 8%;
-}
-
-.table .state{
-  width: 6%;
-}
-
-.table .actions{
-  width: 8%;
-}
-
-.table i{
-  border: 1px solid #A5AAAE;
-  border-radius: 4px;
-  padding: 6px;
-  /* margin: 8px; */
-}
-
 /* MEDIA QUERY */
 
 @media screen and (max-width: 991px) {
@@ -97,16 +111,14 @@ aside i{
     flex-wrap: nowrap;
   }
 
-  .fullheight{
-    width: 100%
+  aside .nav-link{
+    text-align: center;
   }
 
-  aside{
-    padding: 0;
+  aside i{
+    text-align: center;
+    padding: 0 5px;
+    font-size: 1.5rem;
   }
-
-  /* .row-tags{
-    width: 100%;
-  } */
   
 }
