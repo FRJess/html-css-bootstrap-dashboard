@@ -52,9 +52,9 @@ aside i{
   padding-right: 10px;
 }
 
-main .badge{
+.jt-badge{
   border-radius: 15px;
-  padding: auto 10px;
+  padding: auto 12px;
 }
 
 
@@ -68,6 +68,10 @@ main .badge{
 
   .fullheight{
     width: 100%
+  }
+
+  aside{
+    padding: 0;
   }
 
   /* .row-tags{
