@@ -14,10 +14,10 @@ main{
 }
 
 
-.faq{
+/* .faq{
   height: 20vh;
   border: 1px solid black;
-}
+} */
 
 .todo{
   height: calc(100vh - 190px);
