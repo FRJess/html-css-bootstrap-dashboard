@@ -1,6 +1,5 @@
 body{
   font-family: 'Roboto', sans-serif;
-  font-family: 'Poppins', sans-serif;
 }
 
 header{
@@ -12,14 +11,6 @@ main{
   background-color:lightsteelblue;
   height: calc(100vh - 70px);
   overflow: auto;
-}
-
-.fullheight{
-  height: 100%;
-}
-
-.tags{
-  height: 120px;
 }
 
 .classi{
@@ -40,6 +31,7 @@ main{
 aside{
   background-image: url(../img/sidebar-bg.png);
   background-color: #051E34;
+  font-family: 'Poppins', sans-serif;
 }
 
 aside .nav-link{
